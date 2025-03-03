@@ -6,7 +6,7 @@ import { PiHamburgerFill } from "react-icons/pi";
 const Navbar = () => {
   return (
     <>
-      <div className=" border border-amber-100/20  text-lime-50 rounded-full  w-[80%] mx-auto mt-5 flex justify-between items-center px-[0.63rem] py-2">
+      <div className=" border border-amber-100/20  text-lime-50 rounded-full    mx-auto mt-10 flex justify-between items-center px-[0.63rem] py-2">
         <button
           className="rounded-full border h-10 w-10 grid place-items-center border-amber-100/20"
           onClick={() => console.log("hello world")}
